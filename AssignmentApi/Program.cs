@@ -1,3 +1,4 @@
+using Assignment.Api.Configurations;
 using Assignment.Api.ServiceCollectionConfigurations;
 using Assignment.Entities;
 using AssignmentApi.Middleware;
@@ -37,18 +38,10 @@ app.MapControllers();
 
 app.UseCors("CORS");
 
+app.UseBasicExceptionHandler();
+
 app.UseMiddleware<AuthenticationMiddleware>();
 
-app.UseExceptionHandler(exceptionHandlerApp =>
-{
-    exceptionHandlerApp.Run(async context =>
-    {
-        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
 
-        context.Response.ContentType = Text.Plain;
-
-        await context.Response.WriteAsync("An exception was thrown.");
-    });
-});
 
 app.Run();
