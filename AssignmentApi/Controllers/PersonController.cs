@@ -40,23 +40,29 @@ namespace AssignmentApi.Controllers
         }
 
         [HttpPost]
-        public void Post(PersonModel person)
+        public IActionResult Post(PersonModel person)
         {
             Person personDto = _mapper.Map<Person>(person);
             _personService.AddPerson(personDto);
+
+            return Ok(personDto);
         }
 
         [HttpPut]
-        public void Put(PersonModel person)
+        public IActionResult Put(PersonModel person)
         {
             Person personDto = _mapper.Map<Person>(person);
             _personService.UpdatePerson(personDto);
+
+            return Ok();
         }
 
         [HttpDelete]
-        public void Delete(int Id)
+        public IActionResult Delete(int Id)
         {
             _personService.DeletePerson(Id);
+
+            return Ok();
         }
     }
 }
