@@ -3,7 +3,6 @@ using Assignment.Api.ServiceCollectionConfigurations;
 using Assignment.Entities;
 using AssignmentApi.Middleware;
 using Microsoft.EntityFrameworkCore;
-using static System.Net.Mime.MediaTypeNames;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,7 +40,5 @@ app.UseCors("CORS");
 app.UseBasicExceptionHandler();
 
 app.UseMiddleware<AuthenticationMiddleware>();
-
-
 
 app.Run();
