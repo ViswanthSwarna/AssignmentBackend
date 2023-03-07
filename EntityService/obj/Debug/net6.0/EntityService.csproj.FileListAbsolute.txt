@@ -1,0 +1,14 @@
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\bin\Debug\net6.0\EntityService.deps.json
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\bin\Debug\net6.0\EntityService.dll
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\bin\Debug\net6.0\EntityService.pdb
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.csproj.AssemblyReference.cache
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.AssemblyInfoInputs.cache
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.AssemblyInfo.cs
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.csproj.CoreCompileInputs.cache
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.dll
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\refint\EntityService.dll
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.pdb
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\ref\EntityService.dll
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\bin\Debug\net6.0\EntityService.runtimeconfig.json
+C:\Users\VISWANTH\Downloads\Assignment\EntityService\obj\Debug\net6.0\EntityService.genruntimeconfig.cache
